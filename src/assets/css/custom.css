@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+:root {
+    --primary-color: #021124;
+    --secondary-color: #071020;
+    --text-color: #A1ACB2;
+    --accent-color: #0FF424;
+    --accent-color-light: #0FF42480;
+    --secondary-button: #ffffff24;
+    --dark-bg: #00000076;
+    --full-height: calc(100vh - 56px);
+}
+
+html, body {
+    /*overflow: hidden;*/
+    margin: 0;
+    /*height: calc(100vh - 56px);*/
+    height: 100vh;
+    width: auto;
+    max-width: 100vw;
+    font-family: "Montserrat", monospace !important;
+    /*color: var(--text-color) !important;*/
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--primary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--text-color);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, var(--accent-color) 0%, var(--accent-color-light) 51%, var(--accent-color) 100%);
+}
+
+/* Overrides */
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, var(--accent-color) 0%, var(--accent-color-light) 51%, var(--accent-color) 100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    padding: 12px 30px;
+}
+
+.btn-primary:hover {
+    /*color: var(--primary-color) !important;*/
+    /*background-color: white !important;*/
+    background-position: right center !important;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-button) !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    padding: 12px 30px;
+}
+
+.btn-secondary:hover {
+    color: var(--primary-color) !important;
+    background-color: white !important;
+}
+
+.nav-item a {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    padding: 13px 20px !important;
+}
+
+select:focus {
+    box-shadow: 0 0 0 0.2rem var(--accent-color-light) !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color);
+}
+
+.form-check-input:checked:focus {
+    box-shadow: 0 0 0 0.2rem var(--accent-color-light) !important;
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem var(--accent-color-light) !important;
+}
+
+.form-check-input:active {
+    background-color: #C8FFC8 !important;
+}
+
+/* Overrides */
+
+#root {
+    height: 100% !important;
+}
+
+.hero {
+    /*padding-top: 54px;*/
+    /*z-index: 1040 !important;*/
+}
+
+.main-section {
+    background-color: var(--primary-color);
+}
+
+.fwh-image {
+    max-height: var(--full-height);
+    /*max-height: 100vh;*/
+    width: auto;
+    max-width: 100%;
+}
+
+.tools {
+    z-index: 99999;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.filterButton {
+    top: 100px;
+    position: absolute;
+    right: 10px;
+    z-index: 100;
+}
+
+.scrollarea {
+    overflow-y: auto;
+}
+
+.legend-sidebar {
+    color: white;
+    z-index: 101;
+    background-color: var(--dark-bg);
+    border-radius: 10px;
+    min-width: 100px;
+    padding: 30px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+.legend-sidebar .icon {
+    width: 30px;
+}
+
+.details-sidebar {
+    z-index: 100;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 80px;
+    padding: 20px;
+    height: calc(100vh - 56px - 40px);
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.5s; /* Safari and Chrome */
+    -o-transition: all 0.5s; /* Opera */
+}
+
+.filters-sidebar {
+    z-index: 100;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 80px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    bottom: 5%;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.5s; /* Safari and Chrome */
+    -o-transition: all 0.5s; /* Opera */
+}
+
+.filters-sidebar:after {
+    margin: auto;
+    text-align: center;
+    padding: 7px;
+    content: "a";
+    position: absolute;
+    background: #fff;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    top: 25px;
+    right: -22.5px;
+}
+
+.filters-sidebar.is-open {
+    /*color: white;*/
+    width: 300px;
+    background-color: white;
+}
+
+.filters-sidebar-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    -moz-transition: visibility 0s, opacity 0.5s linear; /* Firefox 4 */
+    -webkit-transition: visibility 0s, opacity 0.5s linear; /* Safari and Chrome */
+    -o-transition: visibility 0s, opacity 0.5s linear; /* Opera */
+}
+
+.filters-sidebar-content.is-open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hoverable {
+    cursor: pointer;
+}
+
+.tooltip-image {
+    width: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.overlay-div {
+    position: absolute;
+    /*border: 1px solid red;*/
+    transition: all 0.5s;
+    border-radius: 2px;
+}
+
+.overlay-div:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+}
+
+.clip-container {
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, .8));
+}
+
+.overlay-div.starcard-stadium {
+    top: 20.8%;
+    left: 47.2%;
+    width: 8.6%;
+    height: 7.9%;
+}
+
+.overlay-div.palla-plaza {
+    top: 34.3%;
+    left: 49%;
+    width: 4.7%;
+    height: 4.2%;
+}
+
+.overlay-div.green-pavilion {
+    top: 49.8%;
+    left: 48.7%;
+    width: 4.8%;
+    height: 4.3%;
+}
+
+.overlay-div.hall-of-fame {
+    top: 43.9%;
+    left: 25.9%;
+    width: 4.8%;
+    height: 4.2%;
+}
+
+.overlay-div.training-field {
+    top: 46.8%;
+    left: 78%;
+    width: 4.8%;
+    height: 4.3%;
+}
+
+.overlay-div.farm {
+    top: 73%;
+    left: 52%;
+    width: 4.7%;
+    height: 4.2%;
+}
+
+.overlay-div.physical-therapy-clinic {
+    top: 61.7%;
+    left: 52%;
+    width: 4.7%;
+    height: 4.2%;
+}
+
+.overlay-div.gym {
+    top: 54.4%;
+    left: 64.3%;
+    width: 4.7%;
+    height: 4.2%;
+}
+
+.modal-dialog {
+    /*width: 100%;*/
+    height: 95%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    /*padding: 0;*/
+}
+
+.modal-content {
+    height: auto;
+    min-height: 100%;
+}
+
+.minimap-container {
+    overflow: auto;
+}
+
+.react-transform-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.text-A1947C {
+    color: #A1947C;
+}
+
+.text-CCC5B3 {
+    color: #CCC5B3;
+}
+
+.text-FCD7B0 {
+    color: #FCD7B0;
+}
+
+.text-ACD5A3 {
+    color: #ACD5A3;
+}
+
+.modal-left > .modal-dialog {
+    margin-right: 0 !important;
+    margin-left: 1% !important;
+}
+
+.modal-content {
+    background-color: #021124;
+    color: white;
+}
+
+.btn-close {
+    background-color: white;
+}
+
+.modal-footer {
+    border: none !important;
+}
+
+.btnBack {
+    position: absolute;
+    top: 9% !important;
+    left: 1% !important;
+    width: 12%;
+    z-index: 100;
+}
+
+.badge {
+    background-color: var(--accent-color-light) !important;
+    font-size: 12px !important;
+}
+
+/*.react-transform-component {*/
+/*    width: 100% !important;*/
+/*    height: 100% !important;*/
+/*}*/
+
+/*.react-transform-element {*/
+/*    width: 100% !important;*/
+/*    height: 100% !important;*/
+/*}*/

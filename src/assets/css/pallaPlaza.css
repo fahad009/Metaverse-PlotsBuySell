@@ -1,0 +1,359 @@
+.pallaPlaza-sections.hover .overlay-div {
+    border-radius: 0 !important;
+}
+
+.pallaPlaza-sections.hover .overlay-div:hover {
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.overlay-div.pallaPlaza-section-1 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 18.6%;
+    left: 13.2%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-2 {
+    height: 5.85%;
+    width: 2.6%;
+    top: 22%;
+    left: 15.25%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-3 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 27.9%;
+    left: 17.55%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-4 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 33.9%;
+    left: 19.9%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-5 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 39.8%;
+    left: 22.2%;
+    background: transparent center top no-repeat;
+}
+/*.overlay-div.pallaPlaza-section-6 {*/
+/*    height: 7.8%;*/
+/*    width: 3.5%;*/
+/*    top: 54.4%;*/
+/*    left: 28.1%;*/
+/*    background: transparent center top no-repeat;*/
+/*}*/
+.overlay-div.pallaPlaza-section-7 {
+    height: 6%;
+    width: 2.6%;
+    top: 59.2%;
+    left: 19.9%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-8 {
+    height: 5.8%;
+    width: 2.65%;
+    top: 65.2%;
+    left: 17.5%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-9 {
+    height: 5.95%;
+    width: 2.6%;
+    top: 71%;
+    left: 15.25%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-10 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 72.6%;
+    left: 13.2%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-11 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 71%;
+    left: 10.6%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-12 {
+    height: 5.9%;
+    width: 2.65%;
+    top: 65.1%;
+    left: 8.2%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-13 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 59.2%;
+    left: 5.9%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-14 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 53.3%;
+    left: 3.6%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-15 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 39.7%;
+    left: 3.6%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-16 {
+    height: 5.95%;
+    width: 2.6%;
+    top: 33.7%;
+    left: 5.9%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-17 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 27.8%;
+    left: 8.3%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-18 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 22%;
+    left: 10.6%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-19 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 7.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-20 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 50%;
+    left: 9.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-21 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 11.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-22 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 50%;
+    left: 13.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-23 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 15.2%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-24 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 50%;
+    left: 17.25%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-25 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 19.3%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-26 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 18.6%;
+    left: 62.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-27 {
+    height: 5.85%;
+    width: 2.6%;
+    top: 22%;
+    left: 64.15%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-28 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 27.9%;
+    left: 66.45%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-29 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 33.9%;
+    left: 68.8%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-30 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 39.8%;
+    left: 71.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-31 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 53.3%;
+    left: 71.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-32 {
+    height: 6%;
+    width: 2.6%;
+    top: 59.2%;
+    left: 68.8%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-33 {
+    height: 5.8%;
+    width: 2.65%;
+    top: 65.2%;
+    left: 66.4%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-34 {
+    height: 5.95%;
+    width: 2.6%;
+    top: 71%;
+    left: 64.14%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-35 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 72.6%;
+    left: 62.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-36 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 71%;
+    left: 59.5%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-37 {
+    height: 5.9%;
+    width: 2.65%;
+    top: 65.1%;
+    left: 57.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-38 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 59.2%;
+    left: 54.8%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-39 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 53.3%;
+    left: 52.5%;
+    background: transparent center top no-repeat;
+}
+/*.overlay-div.pallaPlaza-section-40 {*/
+/*    height: 5.9%;*/
+/*    width: 2.6%;*/
+/*    top: 39.7%;*/
+/*    left: 52.5%;*/
+/*    background: transparent center top no-repeat;*/
+/*}*/
+.overlay-div.pallaPlaza-section-41 {
+    height: 5.95%;
+    width: 2.6%;
+    top: 33.7%;
+    left: 54.8%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-42 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 27.8%;
+    left: 57.2%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-43 {
+    height: 5.9%;
+    width: 2.6%;
+    top: 22%;
+    left: 59.5%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-44 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 56%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-45 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 50%;
+    left: 58%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-46 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 60%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-47 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 50%;
+    left: 62%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-48 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 64.1%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-49 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 50%;
+    left: 66.15%;
+    background: transparent center top no-repeat;
+}
+.overlay-div.pallaPlaza-section-50 {
+    height: 7.7%;
+    width: 2.05%;
+    top: 43.8%;
+    left: 68.2%;
+    background: transparent center top no-repeat;
+}
